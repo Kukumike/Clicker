@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Clicker</string>
+    <string name="btnAdd">CUSTOMER +</string>
+    <string name="btnSub">CUSTOMER -</string>
+    <string name="btnReset">RESET</string>
+    <string name="count_txt">Customer Count 0</string>
+</resources>

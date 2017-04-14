@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.michaelmukolwe.clicker.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/count_txt"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/clickTv"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAdd"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/addBtn"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSub"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/subBtn"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnReset"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/resetBtn"/>
+</LinearLayout>

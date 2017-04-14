@@ -1,0 +1,3 @@
+# Clicker
+# android test app
+# keeps counts customers in and out...
